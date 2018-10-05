@@ -14,10 +14,10 @@ public class HelpIntentHandler implements RequestHandler {
     }
 
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "You can say hello to me!";
+        String speechText = "You can ask me about product details that available in our shop, I can tell you the product location and availablity. Ask me like where can I get with product name";
         return input.getResponseBuilder()
                 .withSpeech(speechText)
-                .withSimpleCard("HelloWorld", speechText)
+                .withSimpleCard("ProductMap", speechText)
                 .withReprompt(speechText)
                 .build();
     }

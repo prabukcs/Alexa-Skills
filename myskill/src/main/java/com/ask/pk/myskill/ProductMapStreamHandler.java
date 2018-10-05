@@ -23,7 +23,7 @@ public class ProductMapStreamHandler extends SkillStreamHandler {
                        new SessionEndedRequestHandler(),
                        new FallbackIntentHandler())
                 // Add your skill id below
-                .withSkillId("amzn1.ask.skill.b76699dc-2642-4736-870d-ca321f4e23fa")
+                .withSkillId("amzn1.ask.skill.83933aca-dd40-4ddd-8d76-55f68ee4544d")
                 .build();
               
     }

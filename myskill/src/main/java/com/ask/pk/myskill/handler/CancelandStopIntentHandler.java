@@ -15,8 +15,8 @@ public class CancelandStopIntentHandler implements RequestHandler {
 
     public Optional<Response> handle(HandlerInput input) {
         return input.getResponseBuilder()
-                .withSpeech("Goodbye")
-                .withSimpleCard("HelloWorld", "Goodbye")
+                .withSpeech("Thanks for using product map. Happy purchasing and have a nice day.")
+                .withSimpleCard("ProductMap", "Goodbye")
                 .build();
     }
 }
