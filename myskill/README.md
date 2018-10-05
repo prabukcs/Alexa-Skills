@@ -1,4 +1,4 @@
-# MyProjects
+# Product Map Skill
 
 A simple AWS Lambda function that demonstrates help to find a product in a shop for the Amazon Echo using the Alexa SDK.
 
