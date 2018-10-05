@@ -1,0 +1,90 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "product map",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+		  "Good bye","bye","cancel"
+		  ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": ["help me","help"]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": ["Good bye","bye","stop"]
+        },
+        {
+          "name": "ProductMapIntent",
+          "slots": [
+            {
+              "name": "Product",
+              "type": "LIST_OF_PRODUCTS"
+            }
+          ],
+          "samples": [
+            " where can I find {Product}",
+            " Tell me where can i get {Product}",
+			" where can I get {Product}",
+			" I want to about {Product}"
+          ]
+        },
+ 
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "LIST_OF_PRODUCTS",
+          "values": [
+            {
+              "name": {
+                "value": "apple"
+              }
+            },
+            {
+              "name": {
+                "value": "orange"
+              }
+            },
+            {
+              "name": {
+                "value": "chocolate"
+              }
+            },
+            {
+              "name": {
+                "value": "milk"
+              }
+            },
+            {
+              "name": {
+                "value": "soap"
+              }
+            },
+            {
+              "name": {
+                "value": "mobile phone"
+              }
+            },
+			{
+              "name": {
+                "value": "phone"
+              }
+            },
+			{
+              "name": {
+                "value": "mobile"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
